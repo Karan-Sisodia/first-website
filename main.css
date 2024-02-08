@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(27, 26, 26);
+   
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    
+}
+.l-pre{ 
+    color: #ffffff; 
+    box-sizing: border-box;
+    text-align: left; /* Align text to the left */
+    float: left;
+
+}
+
+.larger-pre {
+    font-size: 190px; /* Adjust the larger font size as needed */
+    
+    float:right;
+}
+
+
+.fade-in-text {
+    opacity: 0; /* Set initial opacity to 0 */
+    animation: fadeIn 3.0s ease-in-out forwards; /* Use the fadeIn animation with a duration of 1.5 seconds */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
